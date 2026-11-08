@@ -40,6 +40,9 @@ client.on('messageCreate', async (msg) => {
 
 client.once('clientReady', async () => {
     console.log(`🤖 Silnik bota zalogowany pomyślnie jako ${client.user.tag}!`);
+    console.log("Typ tokenu:", typeof process.env.TOKEN); 
+    console.log("Czy token istnieje?:", process.env.TOKEN ? "Tak" : "Nie");
+
 });
 
 client.login("MTU2ODI1MDk0NjEzODY3NzM4OQ.GSA2GQ.Tryn3ByGPxnH6vrkvS8HbsPbG7ipLifyrotjZo");
