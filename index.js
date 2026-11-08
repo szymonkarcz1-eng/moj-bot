@@ -42,4 +42,5 @@ client.once('clientReady', async () => {
     console.log(`🤖 Silnik bota zalogowany pomyślnie jako ${client.user.tag}!`);
 });
 
-client.login(silnik.konfiguracja.TOKEN_BOTA);
+client.login("MTU2ODI1MDk0NjEzODY3NzM4OQ.GSA2GQ.Tryn3ByGPxnH6vrkvS8HbsPbG7ipLifyrotjZo");
+
